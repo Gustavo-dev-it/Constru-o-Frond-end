@@ -3,3 +3,5 @@
 ## Gustavo do Carmo Bandeira Correa
 
 ## 2024 / 2° Semestre
+
+### Iniciando com GIT
