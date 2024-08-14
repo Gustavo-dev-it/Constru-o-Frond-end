@@ -5,3 +5,12 @@
 ## 2024 / 2° Semestre
 
 ### Iniciando com GIT
+
+
+
+### Live Preview
+
+<!-- Comentário html -->
+
+tag de titulo (h1/h6)
+
