@@ -1,0 +1,93 @@
+
+/* Reset do Css Padrão dos itens*/
+* {
+margin: 0 auto;
+}
+
+/* Selecionando Tag*/
+
+body {
+    background-image: url(../assets/fundo\ naruto.jpg);
+    padding-bottom: 500px;
+}
+
+
+h2{
+    font-size: 22px;
+    color: rgb(238, 12, 99);
+}
+
+h3{
+    font-size: 22px;
+    color: rgb(12, 174, 238);
+}
+
+/* Selecionando Classe (.) */
+.meu-titulo{
+    color: aquamarine;
+}
+
+/* Selecionando ID (#) */
+#meu-titulo-h3{
+    color: rgb(39, 141, 53);
+}  
+
+.fundo-azul{
+    background-color: rgb(238, 90, 90);
+}
+
+.texto-pequeno, 
+#meu-paragrafo {
+    font-size: 20px;
+
+}
+
+#minha-div{
+    background-image: url(../assets/boreal.jpg);
+    padding: 20px;
+}
+
+#altura-largura{
+    width:200px ;
+    height: 200px;
+    background-color: rgb(40, 189, 189);
+}
+
+#div-espaçamento{
+    background-color: aquamarine;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    
+}
+
+#div-margem{
+    background-color: rgb(192, 31, 144);
+   margin: 10px 20px 10px 20px;
+    
+}
+
+
+#div-borda{
+    background-color: rgb(170, 20, 207);
+   width: 200px;
+   height: 200px;
+   margin-top: 10px;
+   border: 5px solid rgb(0, 2, 0);
+    
+}
+
+#div-arredondamento-borda{
+    background-color: rgb(201, 107, 224);
+   width: 200px;
+   height: 200px;
+   margin-top: 10px;
+   border: 5px solid rgb(31, 172, 31);
+    border-radius: 100px;
+}
+
+.meu-texto{
+    background-color: rgb(6, 187, 66);
+    text-align: center;
+    color: blue;
+
+}

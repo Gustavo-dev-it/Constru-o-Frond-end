@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,137 +8,292 @@
 
 
     <!--CSS no head-->
-    <style>
+    <!--
+<style>
         body {
             padding-bottom: 500px;
         }
 
 
     </style>
+
+   -->
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+
+
 </head>
+
 <body>
+
+<nav>
+    <ul>
+        <li><a href="./index.html">Pagina principal</a></li>
+        <li><a href="./tabela.html"></a>tabela </li>
+        <li><a href="./formulario.html"></a>formulario</li>
+    </ul>
+</nav>
+
     <h1>Título mais importante</h1>
 
 
 
-<!-- Paragrafos -->
+    <!-- Paragrafos -->
 
-<p>Algum texto qualquer</p> <h1> &male;</h1> 
-<br>
+    <p>Algum texto qualquer</p>
+    <h1> &male;</h1>
+    <br>
 
-<!-- Links-->
-<a href="http://www.google.com"> Google</a>
+    <!-- Links-->
+    <a href="http://www.google.com"> Google</a>
 
-<a href="http://www.google.com" target="_blank"> Google em nova Aba</a>
-
-
-
-<!-- Quebras de Linha-->
-
-<h2>Titulo</h2>
-<p> Algum texto <br> qualquer </p>
-<br>
-<h2> Titulo</h2>
-<p> Algum texto qualquer</p>
-<br>
-
-<!--imagem-->
-
-<img  width= "100px" height="100px" src="./assets/logo.jpg" alt="Logo Kirvano">
-
-<!-- Formularios-->
-
-<form>
-<h2> Formulario</h2>
-
-<label for="">Nome:</label>
-<input type="text" placeholder="Nome Completo">
-<br>
-<br>
-
-<label> CPF: </label>
-<input type="text" placeholder="000.000.000-00">
-<br>
-<br>
-
-<label>Email:</label>
-<input type="email" placeholder="xxxxx@xxxx.com">
-<br>
-<br>
-
-<button type="submit">Enviar</button>
-<button type="reset"> Limpar</button>
-
-
-<!-- Lista-->
-
-<ul>
-    <li>Arooz</li>
-    <li>Feijao</li>
-</ul>
-
-<!--Lista Ordenada-->
-
-<ol>
-
-<li>COMIDA</li>
-<li>NADAR</li>
-
-</ol>
-<hr>
-
-
-<!--Tabelas-->
-
-
-<table border="1">
-
-<thead>
-
-<tr>
-
-    <th>Nome:</th>
-    <th>ID:</th>
-    <th>EMAIL:</th>
-
-</tr>
-</thead>
-
-<tbody>
-
-    <tr>
-
-        <td>Maria:</td>
-        <td>1</td>
-        <td>maria joana do carmo bandeira@gmail.com:</td>
-    
-    </tr>
-
-
-</tbody>
-<tr>
-
-    <td>Maria:</td>
-    <td>1</td>
-    <td>maria joana do carmo bandeira@gmail.com:</td>
-
-</tr>
-<tr>
-
-    <td>Maria:</td>
-    <td>1</td>
-    <td>maria joana do carmo bandeira@gmail.com:</td>
-
-</tr>
-
-</table>
+    <a href="http://www.google.com" target="_blank"> Google em nova Aba</a>
 
 
 
+    <!-- Quebras de Linha-->
+
+    <h2>Titulo</h2>
+    <p> Algum texto <br> qualquer </p>
+    <br>
+    <h2> Titulo</h2>
+    <p> Algum texto qualquer</p>
+    <br>
+
+    <!--imagem-->
+
+    <img width="100px" height="100px" src="./assets/logo.jpg" alt="Logo Kirvano">
+
+    <!-- Formularios-->
+
+    <form>
+        <h2> Formulario</h2>
+
+        <label for="nome">Nome:</label>
+        <input type="text" placeholder="Nome Completo" name="nome
+">
+        <br>
+        <br>
+
+        <label for="cpf"> CPF: </label>
+        <input type="text" placeholder="000.000.000-00" name="cpf
+">
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="xxxxx@xxxx.com" name="email
+">
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset"> Limpar</button>
+
+    </form>
+
+    <!-- Lista-->
+
+    <ul>
+        <li>Arooz</li>
+        <li>Feijao</li>
+    </ul>
+
+    <!--Lista Ordenada-->
+
+    <ol>
+
+        <li>COMIDA</li>
+        <li>NADAR</li>
+
+    </ol>
+    <hr>
 
 
-</form>
+    <!--Tabelas-->
+
+
+    <table border="1">
+
+        <thead>
+
+            <tr>
+
+                <th>Nome:</th>
+                <th>ID:</th>
+                <th>EMAIL:</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>Maria:</td>
+                <td> &nbsp; 1</td>
+                <td>maria joana do carmo bandeira@gmail.com:</td>
+
+            </tr>
+
+
+        </tbody>
+        <tr>
+
+            <td>Maria:</td>
+            <td> &nbsp; 2</td>
+            <td>maria joana do carmo bandeira@gmail.com:</td>
+
+        </tr>
+        <tr>
+
+            <td>Maria:</td>
+            <td> &nbsp; 3</td>
+            <td>maria joana do carmo bandeira@gmail.com:</td>
+
+        </tr>
+
+    </table>
+
+    <!-- DIV E SPAN-->
+
+    <div>
+
+        <h3>Produto X</h3>
+        <p>R$ 500 </p>
+        <a href="#">Comprar</a>
+
+    </div>
+
+
+    <p>Em linguística, a noção de <span style="color: aqua; background-color: black;"> é ampla </span> e ainda aberta a
+        uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um
+        autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu
+        tamanho é variável.</p>
+
+    <!--CSS INLINE-->
+
+    <h3 style="font-size: 25px; color: blueviolet;">Titulo Qualquer</h3>
+
+    <hr>
+
+
+    <!--Elementos Block e Inline-->
+
+
+    <p>Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser
+        entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo
+        com seus conhecimentos linguísticos e culturais. Seu tamanho é variável.</p>
+
+
+    <p>Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser
+        entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo
+        com seus conhecimentos linguísticos e culturais. Seu tamanho é variável.</p>
+
+
+    <span>Algum Texto</span>
+
+    <span>Qualquer texto</span>
+
+    <hr>
+
+    <!--Tags HTML5-->
+
+    <nav></nav>
+    <main></main>
+    <aside></aside>
+    <section></section>
+    <footer></footer>
+
+
+    <!-- Integração com o CSS-->
+
+    <!--classes-->
+    <h3 class="meu-titulo">Gustavo</h3>
+
+    <!--ID-->
+    <h3 id="meu-titulo-h3">Meu ultimo Titulo</h3>
+
+
+    <!--Background (fundo)-->
+
+
+    <p class="fundo-azul">algum texto qualquer</p>
+
+    <hr>
+
+
+    <!-- 2 elementos, 1 regra -->
+
+    <p class="texto-pequeno">Algum texto</p>
+    <p id="meu-paragrafo">Outro texto</p>
+
+
+    <!--BackGround imagem -->
+
+    <div id="minha-div">
+
+        <h3>Testando imagem de background</h3>
+    </div>
+    <hr>
+
+    <!--Box Model-->
+
+    <!--Altura e Largura-->
+    <div id="altura-largura">
+
+        <p> Testando altura e largura</p>
+
+    </div>
+
+    <!--Padding (Espaçamento)-->
+
+    <div id="div-espaçamento">
+
+        <p> Testando Espaçamento</p>
+
+    </div>
+
+    <!-- Margin (Margem)-->
+
+    <div id="div-margem">
+
+        <p> Testando Margem</p>
+
+    </div>
+
+    <!--borda-->
+
+    <div id="div-borda">
+
+        <p> Testando borda</p>
+
+    </div>
+
+    <!--Arrodondamento da Borda-->
+
+    <div id="div-arredondamento-borda">
+
+        <p> Testando --Arrodondamento</p>
+
+    </div>
+
+    <hr>
+
+    <!--Alinhamento de texto-->
+
+    <div>
+
+        <p class="meu-texto">Testando alinhamento do texto</p>
+
+    </div>
+
+
+
+
 
 
 </body>
+
 </html>
