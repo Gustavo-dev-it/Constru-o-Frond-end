@@ -14,3 +14,7 @@
 
 tag de titulo (h1/h6)
 
+## rodar o projeto
+
+### npx next dev
+
