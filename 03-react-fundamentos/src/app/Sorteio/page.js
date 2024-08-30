@@ -5,15 +5,15 @@ export default function Sorteio() {
         <>
             {/*Comentarios no JSX*/}
           
+<h2>Sorteio da MEGA SENA</h2>
 
+            <Sorteados />
+            <Sorteados />
+            <Sorteados />
+            <Sorteados />
+            <Sorteados />
+            <Sorteados />
 
-            <Sorteados />
-            <Sorteados />
-            <Sorteados />
-            <Sorteados />
-            <Sorteados />
-            <Sorteados />
-            
             <Imagem />
 
            
