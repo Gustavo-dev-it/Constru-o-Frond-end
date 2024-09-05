@@ -1,11 +1,18 @@
+
+'use client'
+
 import React from 'react'
 import Pagina from '../Components/Pagina'
-import {Col, Row, Table } from 'react-bootstrap'
+import { Col, Row, Table, Carousel } from 'react-bootstrap'
 
 
 export default function page() {
 
     const carros = ["HB20", "Palio", "Argo"]
+    const imagens = ['https://picsum.photos/200?random=1',
+        'https://picsum.photos/200?random=2',
+        'https://picsum.photos/200?random=3']
+
 
 
     return (
@@ -30,26 +37,42 @@ export default function page() {
 
             <Row>
 
-            <Table striped bordered hover>
-      <thead className='table-danger'>
-        <tr>
-          <th>Carros</th>
-        </tr>
-      </thead>
-      <tbody>
+                <Table striped bordered hover>
+                    <thead className='table-danger'>
+                        <tr>
+                            <th>Carros</th>
+                        </tr>
+                    </thead>
+                    <tbody>
 
-        {carros.map(carro => {
-            return (
-                <tr>
-                <td>{carro}</td>
-                </tr>
-            )
+                        {carros.map(carro => {
+                            return (
+                                <tr>
+                                    <td>{carro}</td>
+                                </tr>
+                            )
 
-        })}
-       
-      </tbody>
-    </Table>
- 
+                        })}
+
+                    </tbody>
+                </Table>
+
+            </Row>
+
+            <Row>
+
+                <Carousel>
+                    {imagens.map(imagem => {
+                        return (
+                            <Carousel.Item>
+                                <img src={imagem} width={700} height={700} />
+                            </Carousel.Item>
+                        )
+                    })}
+                </Carousel>
+
+
+
             </Row>
 
 
