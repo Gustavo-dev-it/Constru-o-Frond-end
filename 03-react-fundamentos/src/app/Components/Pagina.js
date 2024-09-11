@@ -10,11 +10,13 @@ export default function Pagina(props) {
     <>
     <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">IGOR</Navbar.Brand>
+          <Navbar.Brand href="/">Meuapp</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">MAMA</Nav.Link>
-            <Nav.Link href="#features">&</Nav.Link>
-            <Nav.Link href="#pricing">SENTA</Nav.Link>
+            <Nav.Link href="/fundamentos">Fundamentos</Nav.Link>
+            <Nav.Link href="/listas">Listas</Nav.Link>
+            <Nav.Link href="/listas">Objetos</Nav.Link>
+            <Nav.Link href="/listas">Estados</Nav.Link>
+            <Nav.Link href="/listas">API'S</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
