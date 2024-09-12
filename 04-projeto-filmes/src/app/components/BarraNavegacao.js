@@ -18,11 +18,19 @@ export default function BarraNavegacao() {
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="me-auto">
 
-      <Nav.Link href="/">AA</Nav.Link>
+      
       
 
       <NavDropdown title="Filmes" id="basic-nav-dropdown">
         <NavDropdown.Item href="/filmes">Filmes Populares</NavDropdown.Item>
+       
+        <NavDropdown.Item href="/filmes/top">Melhores Avaliados</NavDropdown.Item>
+
+        <NavDropdown.Item href="/filmes/cartaz">Filmes em Cartaz</NavDropdown.Item>
+
+        <NavDropdown.Item href="/filmes/lancamento">Filmes em Lançamentos</NavDropdown.Item>
+
+
 
         
 

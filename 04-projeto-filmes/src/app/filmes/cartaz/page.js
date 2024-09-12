@@ -1,8 +1,8 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { Button, Card, Col, Row } from 'react-bootstrap'
-import apiFilmes from '../apis/apiFilmes'
-import Pagina from '../components/Pagina'
+import Pagina from '@/app/components/Pagina'
+import apiFilmes from '@/app/apis/apiFilmes'
 
 export default function page() {
 
@@ -17,7 +17,7 @@ export default function page() {
 
     async function buscarFilmes() {
 
-        const resultado = await apiFilmes.get("/movie/popular?language=pt-BR")
+        const resultado = await apiFilmes.get("/movie/now_playing?language=pt-BR")
       
 
         const filmesRecebidos = resultado.data.results
@@ -27,7 +27,7 @@ export default function page() {
 
     return (
 
-        <Pagina titulo="filmes">
+        <Pagina titulo="Filmes em Cartaz">
 
 <Row md={4}>
 
