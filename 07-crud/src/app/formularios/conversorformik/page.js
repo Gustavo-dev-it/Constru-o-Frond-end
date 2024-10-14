@@ -2,7 +2,7 @@
 
 import Pagina from "@/components/Pagina";
 import { useState } from "react";
-import { Button, Modal } from "react-bootstrap";
+import { Button, CardImg, Modal, Row, Col} from "react-bootstrap";
 import { FaCheck } from "react-icons/fa";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 
@@ -37,6 +37,17 @@ export default function ConversorMoeda() {
 
   return (
     <Pagina titulo="Conversor de Moedas">
+
+<Row className="justify-content-center">
+        <Col xs={6} md={4} className="d-flex justify-content-center">
+          <CardImg src="/imc/bitcoin.png" style={{ width: '80%', height: 'auto' }} />
+        </Col>
+        <Col xs={6} md={4} className="d-flex justify-content-center">
+          <CardImg src="/imc/dólar-americano-e-euro-notas-20243784.webp" style={{ width: '80%', height: 'auto' }} />
+          </Col>
+          </Row>
+
+
       <Formik
         initialValues={{ valorReal: '' }}
         onSubmit={converter}
