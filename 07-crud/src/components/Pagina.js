@@ -18,6 +18,7 @@ export default function Pagina({ titulo, children }) {
               <NavDropdown.Item href="/formularios/imcformik">Calculadora de IMC - Formik</NavDropdown.Item>
               <NavDropdown.Item href="/formularios/conversor">Conversor de Moedas</NavDropdown.Item>
               <NavDropdown.Item href="/formularios/conversorformik">Conversor de Moedas - Formik</NavDropdown.Item>
+              <NavDropdown.Item href="/formularios/imobiliaria">imobiliaria</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Container>
